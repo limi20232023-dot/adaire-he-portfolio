@@ -1,15 +1,15 @@
 import { PortfolioData } from '../types/portfolio';
 
 export const INITIAL_PORTFOLIO_DATA: PortfolioData = {
-  name: "Terry Yao",
+  name: "Adair He",
   // Providing an extremely stable, high-resolution, professional academic headshot URL directly from Unsplash 
   // as the primary default so it never breaks on any web host. You can easily switch this to "/images/sample-profile.jpg"
-  photoUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=800",
+  photoUrl: "/images/sample-profile.jpg",
   bio: "Driven computer science and applied mathematics student focused on algorithmic optimization, full-stack software development, and artificial intelligence. Dedicated to advancing robust technological platforms, participating in competitive informatics, and driving meaningful initiatives in school clubs and the wider community.",
   gradeLevel: "High School Senior • Class of 2026",
-  school: "Thomas Jefferson High School for Science and Technology",
+  school: "Maple Leaf International School",
   gpa: "4.00 UW / 4.85 W",
-  major: "Computer Science & Artificial Intelligence",
+  major: "Computer Science & Astrophysics",
   heroButtons: {
     resumeText: "Download Resume",
     contactText: "Contact"
